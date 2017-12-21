@@ -1,0 +1,47 @@
+{
+  "name": "catch-of-the-day",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp default"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autobind-decorator": "^2.1.0",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browser-sync": "^2.19.0",
+    "browserify": "^14.5.0",
+    "connect-history-api-fallback": "^1.5.0",
+    "firebase": "^4.8.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-stylus": "^2.6.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "history": "^4.7.2",
+    "install": "^0.10.2",
+    "re-base": "^1.2.2",
+    "react": "^16.2.0",
+    "react-catalyst": "^0.3.1",
+    "react-dom": "^16.2.0",
+    "react-mixin": "^3.0.5",
+    "react-router": "^4.2.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.9.0"
+  },
+  "dependencies": {
+    "react-router-dom": "^4.2.2"
+  },
+  "browserify": {
+    "transform": [["babelify", { "presets": ["env"] }]]
+  }
+}
